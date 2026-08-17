@@ -1,0 +1,22 @@
+{
+    "name": "turnpike_2023-09-12-12-53-32_kf_350_rainy",
+    "video_path": "/raid/home/ruchaa/projects/cosmos-transfer2.5/tartandrive/data/turnpike_2023-09-12-12-53-32/kf_chunks/kf_350_input.mp4",
+    "prompt_path": "/raid/home/ruchaa/projects/cosmos-transfer2.5/tartandrive/prompts/rainy.txt",
+    "guidance": 5,
+    "num_steps": 35,
+    "sigma_max": "200",
+    "show_control_condition": true,
+    "num_video_frames_per_chunk": 93,
+    "max_frames": 200,
+    "resolution": "720",
+    "keep_input_resolution": true,
+    "edge": {
+        "control_path": "/raid/home/ruchaa/projects/cosmos-transfer2.5/tartandrive/data/turnpike_2023-09-12-12-53-32/kf_chunks/kf_350_edge.mp4",
+        "control_weight": 1.0,
+        "preset_edge_threshold": "very_high"
+    },
+    "depth": {
+        "control_path": "/raid/home/ruchaa/projects/cosmos-transfer2.5/tartandrive/data/turnpike_2023-09-12-12-53-32/kf_chunks/kf_350_depth.mp4",
+        "control_weight": 0.8
+    }
+}

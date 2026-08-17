@@ -205,3 +205,8 @@ cython_debug/
 !assets/**/*.png
 !assets/**/*.jpg
 !assets/**/*.mp4
+
+# TartanDrive2 experiment data/outputs (large, regenerable from pipeline scripts)
+tartandrive/data/
+tartandrive/outputs/
+tartandrive/logs/
